@@ -1,5 +1,5 @@
 # DiceGame-JS
-Simple dice game with JS. Enjoy!
+Simple dice game with JavaScript. Enjoy!
 
 ### How to play
 Rules
