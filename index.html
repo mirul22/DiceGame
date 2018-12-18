@@ -5,11 +5,36 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
         
         <title>Dice Game</title>
     </head>
 
     <body>
+        <div class='popup'>
+            <div class='cnt223'>
+                <a href='' class='close' style="float: right;">Close</a>
+                <h1 style="text-align: center">How to play</h1>
+                <div>
+                    <h3>Rules</h3>
+                    <li>Game involve 2 player</li>
+                    <li>Goal is to reach 100 score</li>
+                    <li>You can change the goal score by typing in your desire score in the 'Final Score'</li>
+                    <li>Player lose turn when rolling number 1 or rolling number 6 on both dice</li>
+                    <li>Rolling number 1 will make player lose turn and lose current score</li>
+                    <li>Rolling number 6 on both dice will only make you lose your turn and remain current score</li>
+                    <li>Press hold to save your current score in your real score</li>
+                    <li>You win when your real score reach the goal score</li>
+                    <li>I hope you understand the logic and enjoy the game</li>
+                </div>
+                <br/>
+                <div>
+                    <h3>Tips</h3>
+                    <li>Press hold after rolling the dice the third time the probability to not roll 1 and double 6 dice is lower</li>
+                    <li>but never doubt to push your luck!</li>
+                </div> 
+            </div>
+        </div>
         <div class="wrapper clearfix">
             <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
